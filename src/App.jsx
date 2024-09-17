@@ -11,7 +11,7 @@ function App() {
     <div >
       <Me />
       <Table/>
-      <div className='bg-fondo w-full h-2'></div>
+      <div className='bg-fondo w-full h-3'></div>
     </div>
 
   )
