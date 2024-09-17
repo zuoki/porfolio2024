@@ -7,3 +7,4 @@ export const Cosito = () => {
     </div>
   )
 }
+export default Cosito;
