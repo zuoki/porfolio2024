@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Me from './Me/Me'
+import { Table } from './table/table'
 import './App.css'
 
 function App() {
@@ -7,8 +8,10 @@ function App() {
 
 
   return (
-    <div className=' '>
+    <div >
       <Me />
+      <Table/>
+      <div className='bg-fondo w-full h-2'></div>
     </div>
 
   )
