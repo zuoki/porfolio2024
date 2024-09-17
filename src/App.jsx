@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Me from './Me/Me'
-import { Table } from './table/table'
+import { Table } from './Table/Table'
 import './App.css'
 
 function App() {
