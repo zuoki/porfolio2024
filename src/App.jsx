@@ -11,14 +11,24 @@ function App() {
 
 
   return (
-    <div className='bg-gradient-to-tr from-red-600 to-orange-400'>
+    <div className='bg-gradient-to-tr from-amber-800 to-amber-950'>
       <NavBar/>
       <Me />
       <Table/>
       <div className='bg-gray-950 bg-opacity-75 h-3'></div>
       <About/>
       <Exp/>
-     
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+
 
     </div>
 
