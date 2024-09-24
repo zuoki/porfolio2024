@@ -11,11 +11,11 @@ function App() {
 
 
   return (
-    <div className='bg-gradient-to-bl from-orange-600  to-violet-700'>
+    <div className='bg-gradient-to-bl from-orange-600  to-violet-700 '>
       <NavBar/>
       <Me />
       <Table/>
-      <div className='bg-gray-950 bg-opacity-75 h-3'></div>
+      <div className='bg-gray-950 bg-opacity-85 h-3'></div>
       <About/>
       <Exp/>
      <br />

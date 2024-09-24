@@ -7,7 +7,7 @@ function Me() {
 
   return (
     
-    <div class="flex relative font-sans w-full h-full   bg-gradient-to-tr from-red-600 to-orange-400">
+    <div id="inicio"class="flex relative font-sans w-full h-full   bg-gradient-to-tr from-red-600 to-orange-400">
       <div class="flex-none w-36 relative sm:w-40 ">
         <img src="/jona.jpg" alt="" class="absolute inset-0 rounded-s-none rounded-e-lg h-full sm:w-full sm:h-full object-cover    sm:rounded-lg sm:ml-20" loading="lazy" />
       </div>

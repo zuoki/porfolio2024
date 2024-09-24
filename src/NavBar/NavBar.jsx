@@ -1,31 +1,21 @@
-import React from 'react'
-import { IoLogoGithub } from "react-icons/io5";
-import { FaLinkedin } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa6";
-import { SiYoutubegaming } from "react-icons/si";
+import React from 'react';
+import { IoLogoGithub } from 'react-icons/io5';
+import { FaLinkedin } from 'react-icons/fa';
+import { FaDiscord } from 'react-icons/fa6';
+import { SiYoutubegaming } from 'react-icons/si';
 
 const NavBar = () => {
     return (
-
-        <div className='flex justify-center'>
-
-            <div className='w-11/12 h-8 bg-gradient-to-b from-yellow-500 to-orange-600   rounded-3xl fixed mx-auto flex  justify-around text-white font-semibold font-sans bottom-6 '>
-                <a href="https://github.com/zuoki" target="_blank">
-                    experiencia
-
-                </a>
-                <a href="https://www.linkedin.com/in/gabriel-juarez-720998240/" target="_blank">
-                    contacto
-
-                </a>
-                <a href="https://discord.gg/EuAX7vzW" target="_blank">
-                    sobre mi
-
+        <div className="  flex justify-center">
+            <div className="w-11/12 h-9  flex justify-around items-center text-white font-semibold font-sans   bg-gray-950  z-50 rounded-3xl  fixed bottom-8  ">
+                <a href="#inicio">Inicio</a>
+                <a href="mailto:jgcorrea56@gmail.com">Contacto</a>
+                <a href="https://discord.gg/EuAX7vzW" target="_blank" rel="noopener noreferrer">
+                    Sobre mí
                 </a>
             </div>
         </div>
+    );
+};
 
-    )
-}
-
-export default NavBar
+export default NavBar;
