@@ -8,7 +8,7 @@ const Exp = () => {
                     Trayectoria Profesional
                 </h2>
             </div>
-            <div className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-1 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.6px] '>
+            <div className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-1 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] '>
                 <p >
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis sit, eligendi, quos alias consequuntur, enim deserunt aliquid inventore voluptates eaque magni illo nulla aut nobis. Perferendis magnam ad molestiae ipsam!
                 </p>
