@@ -11,7 +11,7 @@ function App() {
 
 
   return (
-    <div className='bg-gradient-to-bl from-amber-400 to-amber-700'>
+    <div className='bg-gradient-to-bl from-amber-600 to-violet-700'>
       <NavBar/>
       <Me />
       <Table/>
