@@ -9,7 +9,7 @@ const NavBar = () => {
 
         <div className='flex justify-center'>
 
-            <div className='w-11/12 h-8 bg-gradient-to-br from-yellow-500 to-orange-600   rounded-3xl fixed mx-auto flex  justify-around text-white font-semibold font-sans bottom-6 '>
+            <div className='w-11/12 h-8 bg-gradient-to-b from-yellow-500 to-orange-600   rounded-3xl fixed mx-auto flex  justify-around text-white font-semibold font-sans bottom-6 '>
                 <a href="https://github.com/zuoki" target="_blank">
                     experiencia
 
