@@ -38,7 +38,7 @@ const About = () => {
                         </h2>
                     </div>
 
-                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-1 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]' >
+                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]' >
                         Desde los 14 años, me apasiona la programación. Hace 3 años, decidí tomarlo en serio y formarme profesionalmente, especializándome en el desarrollo web con JavaScript. Actualmente, ya he acumulado más de 1,200 horas de código.
                     </h3>
                 </div>
