@@ -9,13 +9,16 @@ const ZuokiDev = () => {
                 <img src="/zuoki.png" alt="" className='w-72 scale-110' />
 
     </div>
-                <h3 className='mt-4'>   VORTTEX GAMING:
+                <h3 className='mt-4'>   Zuoki Dev:
                 </h3>
                 <p >
-                Una plataforma de comercio electrónico dedicada a la venta de claves digitales. Ofrece funcionalidades avanzadas como autenticación de terceros, un panel de administrador intuitivo y gestión de inventario, todo respaldado por su propia base de datos y API.
+                Tengo gustos variados. Soy un apasionado del fútbol, sigo la Champions League y la Fórmula 1, aunque no tengo un equipo favorito. Disfruto del rock, especialmente de bandas como RHCP, ACDC y LP, así como de la música en general.</p>
+                <img src="/certificate.png" alt="Henry"  className=' scale-75'/>
+                <p>En mi carrera como programador, he aprendido que mis conocimientos y la relación con mis compañeros son esenciales. Mi pasión por el aprendizaje autodidacta me ha permitido crecer, pero también valoro todo lo que aprendo de ellos. Me gusta destacar, y uno de mis logros más significativos fue ser elegido "Henry Rockstar", un reconocimiento al alumno destacado, seleccionado entre más de 120 compañeros. Además, también fui reconocido por uno de los mejores proyectos finales de la carrera de Full Stack. Este premio refleja tanto mis habilidades técnicas como mi compromiso como buen compañero.
+                  Actualmente estoy asistiendo a clases ingles para alcanzar el nivel C1
                 </p>
                 <div className='flex justify-end'>
-                <button className=' bg-gradient-to-r from-pink-500 to-yellow-500 rounded-2xl w-24 h-9'>  <a href="https://pf-final-damian-projects.vercel.app/" target='blank'>visitar</a></button>
+               
                 </div>
             </div>
     </section>

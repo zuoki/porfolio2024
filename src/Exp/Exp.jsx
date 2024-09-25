@@ -13,8 +13,11 @@ const Exp = () => {
                     Durante mi proceso de aprendizaje, he tenido la oportunidad de trabajar en diversos proyectos académicos a través de bootcamps como No Country, Soy Henry, Udemy, entre otros. Mi enfoque ha abarcado desde la creación de Single Page Applications (SPAs) como landing pages hasta proyectos más robustos, como tiendas en línea (ecommerce), todos ellos con sus propias bases de datos. He utilizado tecnologías como Next.js, React y diversos frameworks para llevar a cabo estas implementaciones.
                 </p>
             </div>
-            <div className='flex justify-center'>
-                <h2 className='text-white font-semibold font-sans'> {"<EXPERIENCIA LABORAL/>"}</h2>
+            <div className='flex justify-center '>
+                <div className='rounded-3xl bg-white w-60 flex justify-center h-8'>
+                <h2 className=' font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<EXPERIENCIA LABORAL/>"}</h2>
+
+                </div>
             </div>
             <section className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] '>
                 <div className='flex justify-around'>

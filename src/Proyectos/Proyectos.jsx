@@ -20,7 +20,7 @@ const Proyectos = () => {
                 <p >
                 Una plataforma de comercio electrónico dedicada a la venta de claves digitales. Ofrece funcionalidades avanzadas como autenticación de terceros, un panel de administrador intuitivo y gestión de inventario, todo respaldado por su propia base de datos y API.
                 </p>
-                <div className='flex justify-end'>
+                <div className='flex justify-end mt-4'>
                 <button className=' bg-gradient-to-r from-pink-500 to-yellow-500 rounded-2xl w-24 h-9'>  <a href="https://pf-final-damian-projects.vercel.app/" target='blank'>visitar</a></button>
                 </div>
             </div>

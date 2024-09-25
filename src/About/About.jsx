@@ -11,6 +11,14 @@ import { SiPrisma } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { SiAstro } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { SiRedux } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3 } from "react-icons/fa";
+
+
+
+
 
 
 
@@ -43,33 +51,44 @@ const About = () => {
                     </h3>
                 </div>
                 <div className='flex justify-center'>
-                       <h2 className='text-white font-semibold font-sans'> {"<TECNOLOGIAS/>"}</h2>
+                    <div className='rounded-3xl bg-white w-48 flex justify-center h-8'>
+
+                        <h2 className='font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<TECNOLOGIAS/>"}</h2>
+                    </div>
                 </div>
                 <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-1 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]'>
-                    <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class="ml-4 mt-2"/>
+                    <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class="ml-4 mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><RiJavascriptFill color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><RiJavascriptFill color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><SiTailwindcss  color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><SiTailwindcss color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><BiLogoPostgresql color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><BiLogoPostgresql color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><SiVite color="white" size="30px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><SiVite color="white" size="30px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><FaNode color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><FaNode color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><FaGitSquare color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><FaGitSquare color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><SiPrisma color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><SiPrisma color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><FaFigma color="white" size="35px" class="ml-4  mt-2"/>
+                    <span class="icono ml-4 mt-3"><FaFigma color="white" size="35px" class="ml-4  mt-2" />
                     </span>
-                    <span class="icono ml-4 mt-3"><SiAstro color="white" size="35px" class="ml-4 mt-2"/>
-                    </span><span class="icono ml-4 mt-3"><SiPostman color="white" size="35px" class="ml-4  mt-2 mb-4"/>
+                    <span class="icono ml-4 mt-3"><SiAstro color="white" size="35px" class="ml-4 mt-2" />
+                    </span><span class="icono ml-4 mt-3"><SiPostman color="white" size="35px" class="ml-4  mt-2 " />
                     </span>
-                    
+                    <span class="icono ml-4 mt-3"><SiRedux color="white" size="35px" class="ml-4  mt-2" />
+                    </span>
+                    <span class="icono ml-4 mt-3"><SiExpress color="white" size="35px" class="ml-4  mt-2" />
+                    </span>
+                    <span class="icono ml-4 mt-3"><FaHtml5 color="white" size="35px" class="ml-4  mt-2" />
+                    </span>
+                    <span class="icono ml-4 mt-3"><FaCss3 color="white" size="35px" class="ml-4 mt-2 mb-4" />
+                    </span>
+
                 </div>
             </div>
 

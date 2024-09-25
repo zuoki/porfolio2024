@@ -31,16 +31,16 @@ function Me() {
           </div>
         </div>
 
-        <div className=" w-52  flex mt-[-10px] sm:w-full sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
-          <h3 className="font-semibold text-white ml-1 ">Contacto</h3>
+        <div className=" w-52 h-8  flex mt-[-10px] sm:w-full sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
+          <h3 className="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
           <a href="https://github.com/zuoki" target="_blank">
-            <IoLogoGithub color="white" size="25px" class="ml-4" />
+            <IoLogoGithub color="white" size="25px" class="ml-4 mt-1" />
           </a>
           <a href="https://www.linkedin.com/in/gabriel-juarez-720998240/" target="_blank">
-            <FaLinkedin color="white" size="25px" class="ml-4" />
+            <FaLinkedin color="white" size="25px" class="ml-4 mt-1" />
           </a>
           <a href="https://discord.gg/EuAX7vzW" target="_blank">
-            <FaDiscord color="white" size="25px" class="ml-4" />
+            <FaDiscord color="white" size="25px" class="ml-4 mt-1" />
           </a>
         </div>
 
