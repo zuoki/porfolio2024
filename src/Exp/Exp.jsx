@@ -36,7 +36,7 @@ const Exp = () => {
 
                     </div>
                 </div>
-                    <p className=' pb-4 text-left'>Desde hace más de un año, formo parte de una consultoría de programación, donde me especializo como programador fullstack donde destaco en el frontend. Mis funciones incluyen la creación de páginas web, aplicaciones móviles y e-commerce, así como el mantenimiento y corrección de proyectos existentes. </p>
+                    <p className=' pb-4 text-left'>Desde hace más de un año, formo parte de una consultoría de programación, donde me especializo como programador fullstack en la cual destaco en el frontend. Mis funciones incluyen la creación de páginas web, aplicaciones móviles y e-commerce, así como el mantenimiento y corrección de proyectos existentes. </p>
                     
             </section>
                 </div>
