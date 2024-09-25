@@ -19,7 +19,7 @@ const Proyectos = () => {
 
             <div className='flex justify-center'>
 
-            <div className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw]'>
+            <div className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
                 <img src="/vortex.png" alt="" />
                 <h3 className='mt-4'>   VORTTEX GAMING:
                 </h3>

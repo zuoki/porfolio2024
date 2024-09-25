@@ -6,10 +6,11 @@ import { SiYoutubegaming } from "react-icons/si";
 function Me() {
 
   return (
-    
-    <div id="inicio"class="flex relative font-sans w-full h-full   bg-gradient-to-tr from-red-600 to-orange-400">
+    <section className="bg-gradient-to-tr from-red-600 to-orange-400 flex justify-center">
+
+    <div id="inicio"class="flex relative font-sans w-full h-full    sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]  sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw]">
       <div class="flex-none w-36 relative sm:w-40 ">
-        <img src="/jona.jpg" alt="" className="absolute inset-0 rounded-s-none rounded-e-lg h-full sm:w-36 sm:ml-11 sm:h-full object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
+        <img src="/jona.jpg" alt="" className="absolute inset-0 rounded-s-none rounded-e-lg h-full   sm:w-36  sm:h-full sm:-ml-[2vw] xl:-ml-[1vw]  object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
       </div>
       <form class="flex-auto   ">
         <div class="flex flex-wrap">
@@ -54,6 +55,7 @@ function Me() {
 
       </form>
     </div>
+    </section>
   );
 }
 
