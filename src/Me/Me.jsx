@@ -10,7 +10,7 @@ function Me() {
 
     <div id="inicio"class="flex relative font-sans w-full h-full    sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]  sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw]">
       <div class="flex-none w-36 relative sm:w-40 ">
-        <img src="/jona.jpg" alt="" className="absolute inset-0 rounded-s-none rounded-e-lg h-full   sm:w-36  sm:h-full sm:-ml-[2vw] xl:-ml-[1vw]  object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
+        <img src="/jona.jpg" alt="" className=" border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white absolute inset-0 rounded-s-none rounded-e-lg h-full   sm:w-36  sm:h-full sm:-ml-[2vw] xl:-ml-[1vw]  object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
       </div>
       <form class="flex-auto   ">
         <div class="flex flex-wrap">
