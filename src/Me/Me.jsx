@@ -9,12 +9,12 @@ function Me() {
     
     <div id="inicio"class="flex relative font-sans w-full h-full   bg-gradient-to-tr from-red-600 to-orange-400">
       <div class="flex-none w-36 relative sm:w-40 ">
-        <img src="/jona.jpg" alt="" class="absolute inset-0 rounded-s-none rounded-e-lg h-full sm:w-full sm:h-full object-cover    sm:rounded-lg sm:ml-20" loading="lazy" />
+        <img src="/jona.jpg" alt="" className="absolute inset-0 rounded-s-none rounded-e-lg h-full sm:w-36 sm:ml-11 sm:h-full object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
       </div>
-      <form class="flex-auto p-2">
+      <form class="flex-auto   ">
         <div class="flex flex-wrap">
 
-          <div class="w-full flex-none mt-2 order-1 text-xl font-bold text-white  sm:flex sm:justify-center sm:text-4xl">
+          <div class="w-full flex-none mt-2 order-1 text-xl font-bold text-white  sm:flex sm:justify-center sm:text-4xl sm:mt-10">
             Jonathan Gabriel Juarez
           </div>
         </div>
@@ -30,8 +30,9 @@ function Me() {
             </label>
           </div>
         </div>
+    <div className="sm:flex sm:justify-center">
 
-        <div className=" w-52 h-8  flex mt-[-10px] sm:w-full sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
+        <div className=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
           <h3 className="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
           <a href="https://github.com/zuoki" target="_blank">
             <IoLogoGithub color="white" size="25px" class="ml-4 mt-1" />
@@ -43,6 +44,7 @@ function Me() {
             <FaDiscord color="white" size="25px" class="ml-4 mt-1" />
           </a>
         </div>
+    </div>
 
         <div class="flex space-x-4 mb-5 text-sm font-medium">
           <div class="flex-auto flex space-x-4">

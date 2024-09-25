@@ -2,9 +2,9 @@ import React from 'react'
 
 const ZuokiDev = () => {
   return (
-    <section>
+    <section className='sm:flex sm:justify-center'>
 
-<div className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] '>
+<div className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw]'>
     <div id='zuoki' className='flex justify-center'>
                 <img src="/zuoki.png" alt="" className='w-72 scale-110' />
 
