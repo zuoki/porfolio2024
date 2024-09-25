@@ -47,7 +47,7 @@ const About = () => {
                     </div>
                 <div className='sm:flex sm:justify-center'>
 
-                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]' >
+                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45    sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]' >
                         Desde los 14 años, me apasiona la programación. Hace 3 años, decidí tomarlo en serio y formarme profesionalmente, especializándome en el desarrollo web con JavaScript. Actualmente, ya he acumulado más de 1,200 horas de código.
                     </h3>
                 </div>
@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div className='sm:flex sm:justify-center'>
 
-                <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
+                <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45    sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
                     <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class="ml-4  mt-2 sm:scale-125" />
                     </span>
                     <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class="ml-4 mt-2  sm:scale-125" />

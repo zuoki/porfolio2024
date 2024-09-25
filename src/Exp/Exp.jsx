@@ -10,7 +10,7 @@ const Exp = () => {
             </div>
             <div className='sm:flex sm:justify-center w-full'>
 
-            <div className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
+            <div className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45    sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
                 <p >
                     Durante mi proceso de aprendizaje, he tenido la oportunidad de trabajar en diversos proyectos académicos a través de bootcamps como No Country, Soy Henry, Udemy, entre otros. Mi enfoque ha abarcado desde la creación de Single Page Applications (SPAs) como landing pages hasta proyectos más robustos, como tiendas en línea (ecommerce), todos ellos con sus propias bases de datos. He utilizado tecnologías como Next.js, React y diversos frameworks para llevar a cabo estas implementaciones.
                 </p>
@@ -24,7 +24,7 @@ const Exp = () => {
                 </div>
                 <div className='sm:flex sm:justify-center'>
 
-            <section className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px]  sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
+            <section className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
                 <div className='flex justify-around'>
                     <img src="/zify.png" alt="zifypro" className='h-28' />
                     <div className='grid-cols-2 mt-4'>
