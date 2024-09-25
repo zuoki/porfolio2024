@@ -41,7 +41,7 @@ const Exp = () => {
             </section>
                 </div>
 
-            <br />
+           
         </section>
 
     )

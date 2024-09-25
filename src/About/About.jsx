@@ -59,7 +59,7 @@ const About = () => {
                 </div>
                 <div className='sm:flex sm:justify-center'>
 
-                <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-1 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
+                <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  mt-4  pt-1 rounded-lg bg-gray-950 bg-opacity-45 blur-[.2px] sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
                     <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class="ml-4  mt-2 sm:scale-125" />
                     </span>
                     <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class="ml-4 mt-2  sm:scale-125" />
