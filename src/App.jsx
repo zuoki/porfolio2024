@@ -6,7 +6,6 @@ import NavBar from './NavBar/NavBar'
 import Exp from './Exp/Exp'
 import Proyectos from './Proyectos/Proyectos'
 import ZuokiDev from './ZuokiDev/ZuokiDev'
-import Fondo from './Fondo/Fondo'
 
 
 function App() {
