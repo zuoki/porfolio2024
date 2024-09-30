@@ -28,7 +28,7 @@
 
     animation-timeline: --ExperienciaL;
     animation-name: laboral;
-    animation-range: entry 5% cover 40%;
+    animation-range: entry 25% cover 50%;
     animation-fill-mode:both;
 }
 
