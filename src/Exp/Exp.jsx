@@ -2,7 +2,7 @@ import React from 'react'
 
 const Exp = () => {
     return (
-        <section id='tecnologias'  className=' z-10 '>
+        <section  id='tecnologias'  className=' z-10 '>
             <div className='flex justify-center'>
                 <h2 className='w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans sm:w-[38vw] xl:w-[30vw] 2xl:w-[20vw] xl:mt-7 xl:'>
                     Trayectoria Profesional
@@ -17,7 +17,7 @@ const Exp = () => {
             </div>
             </div>
             <div className='flex justify-center '>
-                <div className='rounded-3xl bg-white w-60 flex justify-center h-8'>
+                <div className='rounded-3xl bg-gray-300 w-60 flex justify-center h-8'>
                 <h2 className=' font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<EXPERIENCIA LABORAL/>"}</h2>
             </div>
 
