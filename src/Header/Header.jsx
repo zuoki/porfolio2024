@@ -16,7 +16,7 @@ function Header() {
       <form class="flex-auto   ">
         <div class="flex flex-wrap">
 
-          <div id="J-titulo" class="w-full flex-none mt-2 order-1 text-xl font-bold text-white  sm:flex sm:justify-center sm:text-4xl  xl:text-6xl sm:mt-10 hover:scale-105 duration-700 hover:translate-x-1">
+          <div id="J-titulo" class="w-full flex-none mt-2 order-1 text-3xl  font-bold text-white  sm:flex sm:justify-center sm:text-4xl  xl:text-6xl sm:mt-10 hover:scale-105 duration-700 hover:translate-x-1">
             Jonathan Gabriel Juarez
           </div>
         </div>

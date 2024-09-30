@@ -6,11 +6,14 @@
 
 }
 @keyframes presentacion{
-    from{
+    0%{
         scale: 75%;
     }
-    to{
-        scale:100%
+    80%{
+        scale:110%
+    }
+    100%{
+        scale: 100%;
     }
 
 }

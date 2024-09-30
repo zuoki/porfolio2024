@@ -17,7 +17,7 @@ const Exp = () => {
             </div>
             </div>
             <div className='flex justify-center '>
-                <div className='rounded-3xl bg-gray-300 w-60 flex justify-center h-8'>
+                <div className='rounded-3xl bg-white w-60 flex justify-center h-8'>
                 <h2 className=' font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<EXPERIENCIA LABORAL/>"}</h2>
             </div>
 
