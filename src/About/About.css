@@ -56,3 +56,18 @@
         transform: translateX(0vw);
     }
 }
+#pros{
+    animation: presentacion 1s ;
+}
+@keyframes presentacion{
+    0%{
+        scale: 75%;
+    }
+    80%{
+        scale:105%
+    }
+    100%{
+        scale: 100%;
+    }
+
+}
