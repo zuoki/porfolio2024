@@ -13,7 +13,7 @@ function App() {
 
 
   return (
-    <div className='bg-gradient-to-bl from-orange-600  to-violet-700 font-semibold rounded-2xl'>
+    <div id='fondoD' className='bg-gradient-to-bl from-orange-600  to-violet-700 font-semibold '>
       
       <NavBar />
       

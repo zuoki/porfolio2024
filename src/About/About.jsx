@@ -46,7 +46,7 @@ const About = () => {
                 <section  className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 gap-4 '>
                     
                     
-                    <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class=" mt-2 sm:scale-125    hover:scale-150 transition 2s "/>
+                    <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class=" mt-2 sm:scale-125    hover:scale-150 transition 2s  "/>
                     </span>
                     <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class=" mt-3  sm:scale-125  hover:scale-150 transition 2s  " />
                     </span>
