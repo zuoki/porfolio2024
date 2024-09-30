@@ -19,7 +19,7 @@ import "./About.css"
 
 const About = () => {
     return (
-        <section id='pros'  className=' flex justify-center .agrandar '>
+        <section id='pros'  className=' flex justify-center  '>
 
             <article className='pt-6  '>
                 <div className=''>

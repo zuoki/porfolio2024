@@ -6,9 +6,10 @@ import "./Proyectos.css"
 
 const Proyectos = () => {
     return (
-        <section id="Proyectos">
+        <section >
+            <article id='Proyectos' className='relative' >
 
-            <div  id="pro" className='flex justify-center'>
+            <div   className='flex justify-center '>
                 <h2 className='w-52 h-9 rounded-full flex items-center justify-center bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans mt-4'>
                     Proyectos <FaDropbox size="25px" className=' ml-1' />
 
@@ -39,6 +40,7 @@ const Proyectos = () => {
 
                 </h2>
             </div>
+            </article>
         </section>
     )
 }

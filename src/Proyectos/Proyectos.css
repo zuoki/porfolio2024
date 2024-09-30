@@ -3,14 +3,14 @@
     view-timeline-axis: block;
     animation-timeline:--Proyectos;
     animation-name: Proyectos;
-    animation-range: entry 35% cover 40%;
+    animation-range: entry 20% cover 35%;
     animation-fill-mode:both;
 
 }
 @keyframes Proyectos{
     from{
         opacity: 0;
-        transform: translateX(10vw);
+        transform: translateX(-10vw);
      }
      to{
          from{
