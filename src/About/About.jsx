@@ -21,7 +21,7 @@ const About = () => {
     return (
         <section id='perico' className=' flex justify-center .agrandar '>
 
-            <article className='pt-6 pb-4 '>
+            <article className='pt-6  '>
                 <div className=''>
                     <div className='flex justify-center'>
                         <h2 className='w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans sm:w-[20vw]'>
