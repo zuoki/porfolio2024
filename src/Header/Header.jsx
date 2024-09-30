@@ -21,7 +21,7 @@ function Header() {
           </div>
         </div>
 
-        <div class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 sm:flex sm:justify-center">
+        <div id="detail" class="flex items-baseline mt-4 mb-6 pb-6 border-b border-slate-200 sm:flex sm:justify-center">
           <div class="space-x-2 flex text-sm font-bold">
             <label>
               <input class="sr-only peer" name="size" type="radio" value="xs" checked />
@@ -34,7 +34,7 @@ function Header() {
         </div>
     <div Class="sm:flex sm:justify-center">
 
-        <div Class=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
+        <div id="detail" Class=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
           <h3 Class="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
           <a href="https://github.com/zuoki" target="_blank">
             <IoLogoGithub  size="25px" class="ml-4 mt-1 duration-700 ease-in-out text-white hover:text-gray-800 hover:scale-125" />

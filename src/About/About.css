@@ -40,3 +40,19 @@
     }
     
 }
+#detail{
+    animation: left-fill 1s;
+    animation-timeline: 2s;
+
+}
+
+@keyframes rigth-fill {
+    from{
+        opacity: 0;
+       transform: translateX(10vw);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0vw);
+    }
+}
