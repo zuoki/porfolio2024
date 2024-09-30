@@ -72,15 +72,13 @@
 
 }
 #pros1{
-    animation: presentacion 1s ;
+    animation: slender .5s ;
 }
-@keyframes presentacion{
+@keyframes slender{
     0%{
         scale: 75%;
     }
-    80%{
-        scale:100%
-    }
+  
     100%{
         scale: 100%;
     }
