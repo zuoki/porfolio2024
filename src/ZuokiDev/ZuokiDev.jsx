@@ -2,11 +2,11 @@ import React from 'react'
 
 const ZuokiDev = () => {
   return (
-    <section className='sm:flex sm:justify-center'>
+    <section id='tecnologias' className='sm:flex sm:justify-center'>
 
 <div className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45  sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
     <div id='zuoki' className='flex justify-center'>
-                <img src="/zuoki.png" alt="" className='w-72 scale-110 sm:scale-125 xl:scale-125 2xl:scale-150 2xl:mt-16 2xl:mb-16' />
+    <img src="/zuoki.png" alt="" className='w-72 scale-110 sm:scale-125 xl:scale-125 2xl:scale-150 2xl:mt-16 2xl:mb-16 pointer-events-none' />
 
     </div>
                 <h3 className='mt-4'>   Zuoki Dev:

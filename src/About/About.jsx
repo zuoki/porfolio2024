@@ -21,7 +21,7 @@ const About = () => {
     return (
         <section id='perico' className=' flex justify-center .agrandar '>
 
-            <div className='pt-6 pb-4 '>
+            <article className='pt-6 pb-4 '>
                 <div className=''>
                     <div className='flex justify-center'>
                         <h2 className='w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans sm:w-[20vw]'>
@@ -30,7 +30,7 @@ const About = () => {
                     </div>
                 <div className='flex justify-center'>
 
-                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45    sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]' >
+                    <h3 className='text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45    sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw] first-letter:font-bold' >
                         Desde los 14 años, me apasiona la programación. Hace 3 años, decidí tomarlo en serio y formarme profesionalmente, especializándome en el desarrollo web con JavaScript. Actualmente, ya he acumulado más de 1,200 horas de código.
                     </h3>
                 </div>
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
               
 
-                <div className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 gap-4 '>
+                <div id='tecnologias' className='grid grid-cols-4 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 gap-4 '>
                     <span class="icono ml-4 mt-3"><RiNextjsFill color="white" size="35px" class="  mt-2 sm:scale-125" />
                     </span>
                     <span class="icono ml-4 mt-3"><SiTypescript color="white" size="25px" class=" mt-3  sm:scale-125" />
@@ -77,7 +77,7 @@ const About = () => {
                 </div>
 
                 </div>
-            </div>
+            </article>
 
               
         </section>

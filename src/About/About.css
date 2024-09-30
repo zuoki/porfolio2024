@@ -1,11 +1,11 @@
 
 #perico {
-    animation: zoomin 1s;
+    animation: left-fill 1s;
     animation-timeline: 2s;
 
 }
 
-@keyframes zoomin {
+@keyframes left-fill {
     from{
         opacity: 0;
        transform: translateX(-10vw);
@@ -14,4 +14,29 @@
         opacity: 1;
         transform: translateX(0vw);
     }
+}
+
+
+
+#tecnologias{
+    view-timeline: --tecno;
+    view-timeline-axis: block;
+
+    animation-timeline: --tecno;
+    animation-name: Scale-scroll;
+    animation-range: entry 25% cover 37%;
+    animation-fill-mode:both;
+
+}
+
+@keyframes Scale-scroll {
+    from{
+        opacity: .45;
+        scale: 80%;
+    }
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
+    
 }

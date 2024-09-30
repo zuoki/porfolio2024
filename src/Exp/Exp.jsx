@@ -2,7 +2,7 @@ import React from 'react'
 
 const Exp = () => {
     return (
-        <section className=' z-10 '>
+        <section id='tecnologias'  className=' z-10 '>
             <div className='flex justify-center'>
                 <h2 className='w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans sm:w-[38vw] xl:w-[30vw] 2xl:w-[20vw] xl:mt-7 xl:'>
                     Trayectoria Profesional

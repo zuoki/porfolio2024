@@ -24,7 +24,7 @@ function App() {
       <About/>
       <Exp />
       <Proyectos/>
-      <ZuokiDev id="zuoki" className="columns-2"/>
+      <ZuokiDev id="zuoki" />
 
       
     <br />
