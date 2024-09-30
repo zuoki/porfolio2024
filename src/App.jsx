@@ -1,5 +1,5 @@
 import './App.css'
-import Me from './Me/Me'
+import Header from './Header/Header'
 import  Table  from "./Table/Cosito"
 import About from './About/About'
 import NavBar from './NavBar/NavBar'
@@ -13,20 +13,23 @@ function App() {
 
 
   return (
-    <div className='bg-gradient-to-bl from-orange-600  to-violet-700 '>
-      <NavBar/>
+    <div className='bg-gradient-to-bl from-orange-600  to-violet-700 font-semibold rounded-2xl'>
       
-      <Me />
+      <NavBar />
+      
+      <Header/>
       <Table/>
       <div className='bg-gray-950 bg-opacity-85 h-4'></div>
+      
       <About/>
-      <Exp/>
+      <Exp />
       <Proyectos/>
-      <ZuokiDev/>
-    <br />
-    <br />
-    <br />
+      <ZuokiDev id="zuoki" className="columns-2"/>
 
+      
+    <br />
+    <br />
+    <br />
 
     </div>
 

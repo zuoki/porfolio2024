@@ -1,0 +1,16 @@
+
+
+
+#J-titulo{
+    animation: presentacion 1s;
+
+}
+@keyframes presentacion{
+    from{
+        scale: 75%;
+    }
+    to{
+        scale:100%
+    }
+
+}

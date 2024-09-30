@@ -1,0 +1,17 @@
+
+#perico {
+    animation: zoomin 1s;
+    animation-timeline: 2s;
+
+}
+
+@keyframes zoomin {
+    from{
+        opacity: 0;
+       transform: translateX(-10vw);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0vw);
+    }
+}

@@ -10,6 +10,7 @@ module.exports = {
               fondo: "#EF702B",
               fondo2:"#E8A25E",
           },
+         
       },
   },
   plugins: [],

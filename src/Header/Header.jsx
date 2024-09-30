@@ -2,20 +2,21 @@ import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa6";
 import { SiYoutubegaming } from "react-icons/si";
+import "./Header.css"
 
-function Me() {
+function Header() {
 
   return (
-    <section className="bg-gradient-to-tr from-red-600 to-orange-400 flex justify-center">
+    <section Class="bg-gradient-to-tr from-red-600 to-orange-400 flex justify-center">
 
     <div id="inicio"class="flex relative font-sans w-full h-full    sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]  sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw]">
       <div class="flex-none w-36 relative sm:w-40 ">
-        <img src="/jona.jpg" alt="" className="  absolute inset-0 rounded-s-none rounded-e-lg h-full   sm:w-36  sm:h-full sm:-ml-[2vw] xl:-ml-[1vw]  object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4" loading="lazy" />
+        <img id="perico" src="/jona.jpg" alt="" Class="  absolute inset-0 rounded-s-none rounded-e-lg h-full   sm:w-36  sm:h-full sm:-ml-[2vw] xl:-ml-[1vw]  object-cover ml-3 mt-2    sm:rounded-lg  sm:mt-4 " loading="lazy" />
       </div>
       <form class="flex-auto   ">
         <div class="flex flex-wrap">
 
-          <div class="w-full flex-none mt-2 order-1 text-xl font-bold text-white  sm:flex sm:justify-center sm:text-4xl sm:mt-10">
+          <div id="J-titulo" class="w-full flex-none mt-2 order-1 text-xl font-bold text-white  sm:flex sm:justify-center sm:text-4xl sm:mt-10 hover:scale-105 duration-700 hover:translate-x-1">
             Jonathan Gabriel Juarez
           </div>
         </div>
@@ -31,18 +32,18 @@ function Me() {
             </label>
           </div>
         </div>
-    <div className="sm:flex sm:justify-center">
+    <div Class="sm:flex sm:justify-center">
 
-        <div className=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
-          <h3 className="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
+        <div Class=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-lg">
+          <h3 Class="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
           <a href="https://github.com/zuoki" target="_blank">
-            <IoLogoGithub color="white" size="25px" class="ml-4 mt-1" />
+            <IoLogoGithub  size="25px" class="ml-4 mt-1 duration-700 ease-in-out text-white hover:text-gray-800 hover:scale-125" />
           </a>
           <a href="https://www.linkedin.com/in/gabriel-juarez-720998240/" target="_blank">
-            <FaLinkedin color="white" size="25px" class="ml-4 mt-1" />
+            <FaLinkedin  size="25px" class="ml-4 mt-1 duration-700 ease-in-out text-white hover:text-gray-800 hover:scale-125" />
           </a>
           <a href="https://discord.gg/EuAX7vzW" target="_blank">
-            <FaDiscord color="white" size="25px" class="ml-4 mt-1" />
+            <FaDiscord  size="25px" class="ml-4 mt-1 duration-700 ease-in-out text-white hover:text-gray-800 hover:scale-125" />
           </a>
         </div>
     </div>
@@ -55,8 +56,9 @@ function Me() {
 
       </form>
     </div>
+   
     </section>
   );
 }
 
-export default Me;
+export default Header;
