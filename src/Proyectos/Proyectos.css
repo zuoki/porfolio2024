@@ -1,0 +1,21 @@
+#Proyectos{
+    view-timeline: --Proyectos;
+    view-timeline-axis: block;
+    animation-timeline:--Proyectos;
+    animation-name: Proyectos;
+    animation-range: entry 15% cover 25%;
+    animation-fill-mode:both;
+
+}
+@keyframes Proyectos{
+    from{
+        opacity: 0;
+        transform: translateX(10vw);
+     }
+     to{
+         from{
+             opacity: 1;
+             transform: translateX(0vw);
+          }
+     }
+ }

@@ -1,0 +1,46 @@
+#Exp-c{
+    view-timeline: --Experiencia;
+    view-timeline-axis: block;
+
+    animation-timeline: --Experiencia;
+    animation-name: esp;
+    animation-range: entry 15% cover 25%;
+    animation-fill-mode:both;
+
+}
+@keyframes esp{
+    from{
+       opacity: 0;
+       transform: translateX(-10vw);
+    }
+    to{
+        from{
+            opacity: 1;
+            transform: translateX(0vw);
+         }
+    }
+}
+
+
+#Exp-l{
+    view-timeline: --ExperienciaL;
+    view-timeline-axis: block;
+
+    animation-timeline: --ExperienciaL;
+    animation-name: laboral;
+    animation-range: entry 40% cover 50%;
+    animation-fill-mode:both;
+}
+
+@keyframes laboral{
+    from{
+       opacity: 0;
+       transform: translateY(10vw);
+    }
+    to{
+        from{
+            opacity: 1;
+            transform: translateY(0vw);
+         }
+    }
+}

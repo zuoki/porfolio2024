@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Exp.css"
 
-const Exp = () => {
+const  Exp = () => {
     return (
-        <section  id='tecnologias'  className=' z-10 '>
+        <section id="Exp-c"    className=' z-10 '>
             <div className='flex justify-center'>
                 <h2 className='w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans sm:w-[38vw] xl:w-[30vw] 2xl:w-[20vw] xl:mt-4 xl:'>
                     Trayectoria Profesional
@@ -16,12 +17,16 @@ const Exp = () => {
                 </p>
             </div>
             </div>
+
+            <article id='Exp-l'>
+
             <div className='flex justify-center '>
                 <div className='rounded-3xl bg-white w-60 flex justify-center h-8'>
                 <h2 className=' font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<EXPERIENCIA LABORAL/>"}</h2>
             </div>
 
                 </div>
+
                 <div className='sm:flex sm:justify-center'>
 
             <section className='text-white font-semibold font-sans border-solid border-t-2 border-l-2 p-2 pt-4 pb-4 border-white m-4 mt-4 rounded-lg bg-gray-950 bg-opacity-45   sm:w-[65vw] xl:w-[50vw] 2xl:w-[35vw] sm:p-[5vw] xl:p-[3vw] 2xl:p-[1vw]'>
@@ -40,6 +45,7 @@ const Exp = () => {
                     
             </section>
                 </div>
+            </article>
 
            
         </section>

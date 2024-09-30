@@ -1,12 +1,12 @@
 import React from 'react'
 import { CiBoxes } from "react-icons/ci";
 import { FaDropbox } from "react-icons/fa";
-
+import "./Proyectos.css"
 
 
 const Proyectos = () => {
     return (
-        <section id='tecnologias'>
+        <section id="Proyectos">
 
             <div  id="pro" className='flex justify-center'>
                 <h2 className='w-52 h-9 rounded-full flex items-center justify-center bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans mt-4'>
