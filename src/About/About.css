@@ -63,7 +63,24 @@
     0%{
         scale: 75%;
     }
-  
+    80%{
+        scale:105%
+    }
+    100%{
+        scale: 100%;
+    }
+
+}
+#pros1{
+    animation: presentacion 1s ;
+}
+@keyframes presentacion{
+    0%{
+        scale: 75%;
+    }
+    80%{
+        scale:100%
+    }
     100%{
         scale: 100%;
     }
