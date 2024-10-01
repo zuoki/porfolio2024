@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 const ExpPc = () => {
     return (
         <section id="mi-div3"  className='flex justify-center '>
-            <article  className='hover:scale-105 transition  hover:bg-gray-400 hover:text-slate-800 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  mb-14   '>
+            <article  className='hover:scale-105 transition hover:bg-opacity-70 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  mb-14   '>
                 <h2 className='select-none w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans'>
                     Trayectoria Profesional
                 </h2>
@@ -19,7 +19,7 @@ const ExpPc = () => {
             </article>
 
 
-            <article className='hover:scale-105 transition  hover:bg-gray-400 hover:text-slate-800 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  '>
+            <article className='hover:scale-105 transition hover:bg-opacity-70 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  '>
                 <div className=' rounded-3xl bg-white w-60 flex justify-center h-8'>
                     <h2 className=' select-none font-semibold font-sans text-transparent  bg-clip-text bg-gradient-to-r  from-orange-600  to-violet-700 mt-1'> {"<EXPERIENCIA LABORAL/>"}</h2>
                 </div>
