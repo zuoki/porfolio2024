@@ -26,7 +26,7 @@ const TecnologiasPc = () => {
         <h1 class="mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Tecnologias y Frameworks</h1>
 
        </div>
-       <div className=' flex justify-center'>
+       <div className=' flex justify-center text-center'>
         <p class="block mx-auto mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">Estas son algunas de las tecnologias y frameworks con lso que acostumbro trabajar en mis proyectos,siempre estoy practicando y aprendiendo nuevos para extender mis conocimientos </p>
 
        </div>
