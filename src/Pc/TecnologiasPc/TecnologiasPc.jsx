@@ -31,7 +31,10 @@ const TecnologiasPc = () => {
 
        </div>
        <div id='' className=' flex justify-center text-center'>
-        <p class="block mx-auto mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200 2xl:w-[76vw] ">Estas son algunas de las tecnologias y frameworks con lso que acostumbro trabajar en mis proyectos,siempre estoy practicando y aprendiendo nuevos para extender mis conocimientos </p>
+        <p class="block mx-auto mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200 2xl:w-[76vw] ">Estas son algunas de las tecnologías y frameworks con los que habitualmente trabajo en mis proyectos. Me esfuerzo continuamente por practicar y aprender nuevas herramientas para ampliar mis conocimientos y mantenerme actualizado en un entorno en constante evolución.
+
+
+</p>
 
        </div>
       </div>
