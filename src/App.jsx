@@ -10,6 +10,7 @@ import ExpPc from './Pc/ExpPc/ExpPc'
 import AboutPc from './Pc/AboutPc/AboutPc'
 import TecnologiasPc from './Pc/TecnologiasPc/TecnologiasPc'
 import ProyectosPC from './Pc/ProyectosPc/ProyectosPc'
+import ZuokiDevPC from './Pc/ZuokiDevPc/ZuokiDevPC'
 
 
 
@@ -55,7 +56,9 @@ function App() {
         <ExpPc />
         <TecnologiasPc />
         <ProyectosPC />
-        <ZuokiDev id="zuoki" />
+        <ZuokiDevPC id="zuoki" />
+       
+      
      
       </section>)
 }

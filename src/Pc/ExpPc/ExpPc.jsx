@@ -6,8 +6,8 @@ import React, { useState, useEffect } from 'react';
 
 const ExpPc = () => {
     return (
-        <section  className='flex justify-center '>
-            <article className=' text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  mb-14   '>
+        <section id="mi-div2"  className='flex justify-center '>
+            <article  className=' text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45   w-[45vw] h-[50vh] 2xl:h-[33vh] 2xl:w-[38vw]  mb-14   '>
                 <h2 className='select-none w-52 h-9 rounded-full flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white text-white font-semibold font-sans'>
                     Trayectoria Profesional
                 </h2>

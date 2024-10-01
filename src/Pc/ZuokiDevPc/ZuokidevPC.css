@@ -1,0 +1,23 @@
+#Z-Pc{
+    clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espacio entre la imagen y el texto */
+    max-width: 800px; /* Ajusta el ancho según tus necesidades */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+}
+
+.image {
+    flex-shrink: 0; /* Evita que la imagen se reduzca */
+    width: 420px; /* Ancho de la imagen */
+    border-radius: 10px; /* Opcional: agrega bordes redondeados */
+}
+
+.text {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio restante */
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus preferencias */
+    color: #333; /* Ajusta el color del texto */
+}
