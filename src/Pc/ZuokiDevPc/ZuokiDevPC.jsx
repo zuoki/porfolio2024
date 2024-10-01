@@ -1,6 +1,6 @@
 import React from 'react'
 import Foter from '../../Foter/Foter'
-import "./ZuokiDevPC.css"
+import "./abc.css"
 
 const ZuokiDevPC = () => {
   return (
