@@ -3,6 +3,29 @@
    
         
         clip-path: polygon(0% 8%, 100% 0%, 100% 100%, 0% 100%);
-      
+     
       
 }
+
+#tec-t{
+        view-timeline: --Experiencia;
+    view-timeline-axis: block;
+
+    animation-timeline: --Experiencia;
+    animation-name: esp2;
+    animation-range: entry 35% cover 40%;
+    animation-fill-mode:both;
+}
+
+@keyframes esp2{
+        from{
+           opacity: 0;
+           scale: 30%;
+        }
+        to{
+            from{
+                opacity: 1;
+                scale: 100%;
+             }
+        }
+    }

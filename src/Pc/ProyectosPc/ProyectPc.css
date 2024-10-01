@@ -1,0 +1,45 @@
+#mi-div2{
+    view-timeline: --Experiencia;
+    view-timeline-axis: block;
+
+    animation-timeline: --Experiencia;
+    animation-name: esp;
+    animation-range: entry 35% cover 55%;
+    animation-fill-mode:both;
+
+}
+@keyframes esp{
+    from{
+       opacity: 0;
+       transform: translateX(-10vw);
+    }
+    to{
+        from{
+            opacity: 1;
+            transform: translateX(0vw);
+         }
+    }
+}
+@keyframes esp1{
+    from{
+       opacity: 0;
+       transform: translateY(10vw);
+    }
+    to{
+        from{
+            opacity: 1;
+            transform: translateY(0vw);
+         }
+    }
+}
+
+#proyectos-title{
+    view-timeline: --Experiencia;
+    view-timeline-axis: block;
+
+    animation-timeline: --Experiencia;
+    animation-name: esp1;
+    animation-range: entry 25% cover 40%;
+    animation-fill-mode:both;
+
+}

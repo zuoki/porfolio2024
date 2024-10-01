@@ -24,20 +24,23 @@ const TecnologiasPc = () => {
 <section className=''>
   
     <div id='mi-div' className=' mt-24 bg-gradient-to-l from-amber-300 to-violet-500 rota pb-28 pt-28 ' >
-       <div className='flex justify-center'>
+      <div id='tec-t'>
+
+       <div id='tec-t' className='flex justify-center'>
         <h1 class="mt-8 mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white select-none">Tecnologias y Frameworks</h1>
 
        </div>
-       <div className=' flex justify-center text-center'>
+       <div id='' className=' flex justify-center text-center'>
         <p class="block mx-auto mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200 2xl:w-[76vw] ">Estas son algunas de las tecnologias y frameworks con lso que acostumbro trabajar en mis proyectos,siempre estoy practicando y aprendiendo nuevos para extender mis conocimientos </p>
 
        </div>
+      </div>
       
     
 
     <article className=' flex justify-center mx-auto'>
 
-    <section  className='grid grid-cols-8 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 gap-10    '>
+    <section  id='mi-div2' className='grid grid-cols-8 text-white font-semibold font-sans border-solid  border-t-2 border-l-2 p-2 border-white  m-4  pt-4 pb-4 rounded-lg bg-gray-950 bg-opacity-45 gap-10  mb-32   '>
                     
                     
                     <span class=""><RiNextjsFill color="" size="60px" class="  m-2 scale-125 hover:scale-150 transition 2s hover:shadow-lg shadow-black rounded-2xl   hover:text-black   "/>
