@@ -23,7 +23,7 @@ function App() {
 
 
 
-  if (whith < 720) return (
+  if (whith < 1280) return (
     <div id='fondoD' className='bg-gradient-to-bl from-orange-600  to-violet-700 font-semibold '>
 
       <NavBar />
