@@ -4,7 +4,7 @@
 
     animation-timeline: --Experiencia;
     animation-name: esp;
-    animation-range: entry 35% cover 55%;
+    animation-range: entry 20% cover 35%;
     animation-fill-mode:both;
 
 }
@@ -42,4 +42,8 @@
     animation-range: entry 25% cover 40%;
     animation-fill-mode:both;
 
+}
+
+#mi-div3{
+    animation: esp1 1s;
 }

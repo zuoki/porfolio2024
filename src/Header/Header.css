@@ -1,16 +1,16 @@
 
 
 
-#J-titulo{
+#J-tituloc{
     animation: presentacion 1s;
 
 }
 @keyframes presentacion{
-    0%{
-        scale: 75%;
+    from{
+        scale: 35%;
     }
  
-    100%{
+    to{
         scale: 100%;
     }
 

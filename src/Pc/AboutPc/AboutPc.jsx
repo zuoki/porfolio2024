@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutPc = () => {
   return (
-    <section>
+    <section  id="mi-div3" className=''>
         <div className='flex justify-center select-none'>
 
         <h1 class=" mt-20  text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white  block mx-auto mb-6 ">Full stack Developer</h1>
