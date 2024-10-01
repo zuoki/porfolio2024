@@ -16,7 +16,7 @@ function Header() {
       <form class="flex-auto   ">
         <div class="flex flex-wrap">
 
-          <div id="J-titulo" class="w-full flex-none mt-2 order-1 text-3xl  font-bold text-white  sm:flex sm:justify-center sm:text-4xl  xl:text-6xl sm:mt-10 hover:scale-105 duration-700 hover:translate-x-1">
+          <div id="J-titulo" class="select-none w-full flex-none mt-2 order-1 text-3xl  font-bold text-white  sm:flex sm:justify-center sm:text-4xl  xl:text-6xl sm:mt-10 hover:scale-105 duration-700 hover:translate-x-1">
             Jonathan Gabriel Juarez
           </div>
         </div>
@@ -25,7 +25,7 @@ function Header() {
           <div class="space-x-2 flex text-sm font-bold">
             <label>
               <input class="sr-only peer" name="size" type="radio" value="xs" checked />
-              <div class="w-52 h-9 rounded-3xl flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white">
+              <div class="select-none w-52 h-9 rounded-3xl flex items-center justify-around bg-gradient-to-r from-pink-500 to-yellow-500 peer-checked:text-white">
                 Full Stack Developer
                 <SiYoutubegaming size="25px" class="ml-[-8px]"/>
               </div>
@@ -34,8 +34,8 @@ function Header() {
         </div>
     <div Class="sm:flex sm:justify-center">
 
-        <div id="detail" Class=" w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-3xl">
-          <h3 Class="font-semibold text-white ml-3 mt-1 ">Contacto</h3>
+        <div id="detail" Class=" select-none w-52 h-8  flex mt-[-10px]  sm:flex sm:justify-end bg-gradient-to-r from-yellow-500 to-orange-600 rounded-3xl">
+          <h3 Class="font-semibold text-white ml-3 mt-1 select-none ">Contacto</h3>
           <a href="https://github.com/zuoki" target="_blank">
             <IoLogoGithub  size="25px" class="ml-4 mt-1 duration-700 ease-in-out text-white hover:text-gray-800 hover:scale-125" />
           </a>
