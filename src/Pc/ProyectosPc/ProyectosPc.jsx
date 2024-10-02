@@ -8,7 +8,7 @@ const ProyectosPc = () => {
 
 <h1 id="mi-div2" class=" mt-20  text-4xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-6xl text-white  block mx-auto mb-6 ">{"<Proyectos/>"}</h1>
 </div>
-<p  id="proyectos-title" class=" mb-14 text-lg font-normal  lg:text-xl sm:px-16 xl:px-48 text-gray-50 pb-4 text-center 2xl:w-[76vw] mx-auto"> Estos son algunos de los proyectos que he realizado durante mi carrera como full stack Developer  </p>
+<p  id="proyectos-title" class=" mb-14  font-normal   sm:px-16 xl:px-48 text-gray-50 pb-4 text-center 2xl:w-[76vw] mx-auto xl:text-2xl 2xl:text-3xl"> Estos son algunos de los proyectos que he realizado durante mi carrera como full stack Developer  </p>
 
       <article className='pb-2 '>
         <div id='mi-div2' className=' flex justify-around 2xl:justify-center  mb-32 '>
@@ -24,10 +24,10 @@ const ProyectosPc = () => {
     />
   </div>
   <div class="p-6">
-    <h4 class="mb-2 text-white text-2xl font-semibold">
+    <h4 class="mb-2 text-white text-2xl font-semibold 2xl:text-4xl ">
      VortexGaming PC
     </h4>
-    <p class="mb-8 text-slate-200 leading-normal font-light text-xl 2xl:text-2xl ">
+    <p class="mb-8 text-slate-200 leading-normal font-light text-xl 2xl:text-3xl  ">
     Una plataforma de comercio electrónico dedicada a la venta de claves digitales. Ofrece funcionalidades avanzadas como autenticación de terceros, un panel de administrador intuitivo y gestión de inventario, todo respaldado por su propia base de datos y API.
     </p>
     <div>
@@ -53,10 +53,10 @@ const ProyectosPc = () => {
     />
   </div>
   <div class="p-6">
-    <h4 class="mb-2 text-white  text-2xl font-semibold">
+    <h4 class="mb-2 text-white  text-2xl font-semibold  2xl:text-4xl">
      AltaBurguer
     </h4>
-    <p class="mb-8 text-slate-200 leading-normal font-light text-xl 2xl:text-2xl ">
+    <p class="mb-8 text-slate-200 leading-normal font-light text-xl 2xl:text-3xl ">
     E-comere dedicado a la venta de comida, es una aplicación completa utilizada para mantener el control del local, gestionar los ingresos de stock y las ventas -Base de datos propia
 
 -Autenticación de terceros
