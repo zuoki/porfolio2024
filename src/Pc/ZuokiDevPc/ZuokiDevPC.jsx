@@ -4,7 +4,7 @@ import "./abc.css"
 
 const ZuokiDevPC = () => {
   return (
-   <section id='Z-Pc' className='bg-gradient-to-r from-violet-700 to-red-600 -mt-[36vh] 2xl:-mt-[10vh]'>
+   <section id='Z-Pc' className='bg-gradient-to-r from-violet-700 to-red-600 -mt-[36vh] 2xl:-mt-[10vh] '>
     <br />
      <div  id='zuoki' className='flex justify-center select-none mt-24'>
 
